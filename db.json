@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "admin",
+      "lastName": "admin",
+      "mobileNumber": "123",
+      "userType": "admin",
+      "status": "nonActiveAdmin"
+    },
+    {
+      "firstName": "qwerty",
+      "lastName": "qwsa",
+      "mobileNumber": "1234",
+      "userType": "user",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "firstName": "dhivakar",
+      "lastName": "saravanan",
+      "mobileNumber": "123456",
+      "userType": "user",
+      "status": "active",
+      "id": 3
+    }
+  ],
+  "transactionData": [
+    {
+      "fromAcNo": "123456",
+      "toAcNo": "1234567",
+      "amountPaid": "90000",
+      "id": 1
+    },
+    {
+      "fromAcNo": "123456",
+      "toAcNo": "90857",
+      "amountPaid": "7890",
+      "id": 2
+    }
+  ]
+}
